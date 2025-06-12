@@ -2,17 +2,38 @@
 <html lang="en">
 <head>
   <base href="./">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>STACKTRACE</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet" />
 </head>
-<body class="bg-black text-gray-100 flex items-center justify-center min-h-screen">
+<body class="bg-black text-gray-100 min-h-screen flex flex-col items-center justify-start py-10 px-4">
 
-  <div class="text-center">
-    <img src="logo_horizontal.png" alt="STACKTRACE logo" class="mx-auto w-[300px] sm:w-[400px] md:w-[500px]">
-    <p class="mt-6 text-gray-400 text-sm">Coming soon...</p>
+  <!-- Logo -->
+  <div class="mb-10">
+    <img src="logo_horizontal.png" alt="STACKTRACE logo" class="w-[250px] sm:w-[300px] md:w-[400px] mx-auto" />
+    <p class="text-gray-400 text-sm text-center mt-4">Coming soon...</p>
+  </div>
+
+  <!-- Cards -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 w-full max-w-6xl px-2">
+    <div class="bg-zinc-900 rounded-xl shadow-lg p-6 text-center border border-zinc-700">
+      <h2 class="text-xl font-semibold mb-2">Clients</h2>
+      <p class="text-sm text-gray-400">Info about our clients will go here.</p>
+    </div>
+    <div class="bg-zinc-900 rounded-xl shadow-lg p-6 text-center border border-zinc-700">
+      <h2 class="text-xl font-semibold mb-2">Projects</h2>
+      <p class="text-sm text-gray-400">Details of projects we've built.</p>
+    </div>
+    <div class="bg-zinc-900 rounded-xl shadow-lg p-6 text-center border border-zinc-700">
+      <h2 class="text-xl font-semibold mb-2">Plans</h2>
+      <p class="text-sm text-gray-400">Future services and roadmap.</p>
+    </div>
+    <div class="bg-zinc-900 rounded-xl shadow-lg p-6 text-center border border-zinc-700">
+      <h2 class="text-xl font-semibold mb-2">Our Team</h2>
+      <p class="text-sm text-gray-400">Meet the people behind STACKTRACE.</p>
+    </div>
   </div>
 
 </body>
